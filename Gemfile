@@ -1,0 +1,45 @@
+source 'https://rubygems.org'
+
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.2.1'
+gem 'mysql2', '~> 0.3.20'
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder', '~> 2.0'
+gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'nokogiri'
+gem 'kaminari'
+gem 'ransack'
+
+
+
+group :development, :test do
+	gem 'htmlbeautifier'
+	gem 'capistrano', '~> 2.15.5'
+	gem 'capistrano-rails'
+	gem 'capistrano-resque'
+	gem 'capistrano-unicorn'
+	gem 'capybara'
+	gem 'factory_girl_rails'
+	gem 'fuubar'
+	gem 'growl'
+	gem 'guard-rspec'
+	gem 'launchy'
+	gem 'meta_request'
+	gem 'pry'
+	gem 'pry-byebug'
+	gem 'pry-rails'
+	gem 'rack-mini-profiler'
+	gem 'rb-fsevent'
+	gem 'rspec-rails'
+	gem 'shoulda-matchers'
+	gem 'spring-commands-rspec'
+	gem 'terminal-notifier-guard'
+	gem 'rack-test'
+	gem 'valid_attribute'
+	gem 'hirb'
+end

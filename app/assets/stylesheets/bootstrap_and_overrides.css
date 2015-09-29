@@ -1,0 +1,509 @@
+/****** General application ******/
+
+.container-table {
+    padding: 50px 50px 50px 50px;
+}
+
+.notice {
+    color: red;
+}
+
+.brand-text {
+    font-size: 80px;
+    color: #ccc;
+    letter-spacing: 0px;
+}
+
+.custom-checkbox {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.smurf {
+    padding-bottom: 5px;
+}
+
+
+/* Bootstrap Nav Hover Override */
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+    background-color: #eee;
+    color: black;
+    background-image: none;
+}
+
+.dashboard-icon-style {
+    padding: 11px 10px 0 0;
+}
+
+
+/* Table Row Highlight */
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #F8E0E0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+code {
+    font-size: 80%;
+}
+
+body {
+    background-color: #FFF;
+    padding-top: 60px;
+}
+
+.col-md-8 {}
+
+.footer {
+    border-width: 1px 0 0 0;
+    padding-top: -180px;
+    border-style: solid;
+    border-color: #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #f5f5f5;
+}
+
+.footer-align {
+    opacity: 0.9;
+    margin: 20px 0 0 100px;
+}
+
+.container-fluid {
+    margin-bottom: 100px;
+}
+
+
+/*****************************/
+
+
+/* Override Bootstrap Button Style */
+
+.no-shadow {
+    box-shadow: 0 0 0;
+}
+
+.btn {
+    background-image: none;
+    background-color: #f5f5f5;
+    border-radius: 3;
+}
+
+
+/*****************************/
+
+.alert {
+    height: 50px;
+    border-radius: 4px;
+    padding-top: 14px;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+
+/* Bootstrap input box bug fix */
+
+input[type=text] {
+    height: 35px;
+}
+
+
+/*******************************/
+
+
+/****** Font & Heading Overides ******/
+
+h1 {
+    color: #444;
+    font-weight: 200;
+}
+
+h2 {
+    color: #444;
+    font-weight: 200;
+}
+
+h3 {
+    color: #444;
+    font-weight: 200;
+    margin: 5px 0px 5px 0px;
+}
+
+h4 {
+    color: #444;
+    font-weight: 200;
+    margin: 5px 0px 5px 0px;
+}
+
+h6 {
+    font-weight: 200;
+    font-size: 100%;
+}
+
+td {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+/*******************************/
+
+
+/****** Alignment Styling ******/
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-bottom {
+    margin-top: 1em;
+}
+
+.float-clear {
+    clear: both;
+}
+
+
+/*******************************/
+
+
+/************ Everything Else ************/
+
+.about-sub-box {
+    border-style: dotted;
+    border-width: 1px 0px 1px 0px;
+    border-color: #aaa;
+    background-color: #f5f5f5;
+    padding: 5px 5px 5px 0px;
+    width: 100%;
+}
+
+.about-sub-box-hide {
+    border-style: dotted;
+    border-width: 1px 0px 1px 0px;
+    border-color: #aaa;
+    padding: 5px 5px 5px 0px;
+    width: 100%;
+}
+
+.account-area {
+    border-style: dotted;
+    border-width: 0;
+    border-color: #aaa;
+    background-color: #FFF;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.account-buttons {
+    margin-top: 14px;
+}
+
+.account-entry {
+    background-color: #f5f5f5;
+    padding: 5px 10px 20px 10px;
+    overflow: auto;
+    resize: both;
+}
+
+.account-entry-hide {
+    padding: 5px 10px 20px 10px;
+    overflow: auto;
+    resize: both;
+}
+
+.account-record {
+    margin-bottom: 25px;
+    padding: 12px 0px 10px 13px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ddd;
+    border-radius: 3px;
+}
+
+.button-margin-left {
+    margin-left: -8px;
+}
+
+.button-width {
+    width: 100px;
+}
+
+.button-space {
+    margin-right: 8px;
+    margin-top: 16px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.color-black {
+    margin-top: 5px;
+    color: #111;
+    font-weight: 200;
+}
+
+.create-account-button {
+    margin-top: -15px;
+}
+
+.create-stb-button {
+    margin-bottom: 10px;
+}
+
+.customer-info {
+    border: 1;
+    border-style: solid;
+    border-width: 1;
+    border-color: #ddd;
+    background-color: #fff;
+    padding: 12px 14px 14px 14px;
+    margin: 10px 0 0 0;
+    border-radius: 3px;
+}
+
+.customer-inner-box {
+    background-color: #f5f5f5;
+    padding: 1px 12px 12px 12px;
+}
+
+.customer-inner-box-hide {
+    padding: 1px 12px 12px 12px;
+}
+
+.customer-list-button {
+    margin-top: 2em;
+    margin-left: -.5em;
+}
+
+.customer-name-title {
+    margin-left: 10px;
+}
+
+.customer-new-button {
+    margin: 17px;
+}
+
+.font-default {
+    /*font-family: "Arial";*/
+}
+
+.field-height {
+    background-color: red;
+}
+
+.health-check-back-button {
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.heading-bar {
+    height: 4em;
+}
+
+.height-spacer {
+    margin-top: 9px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline-left {
+    display: inline-block;
+    float: left;
+}
+
+.inline-right {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+.legend-text {
+    margin-left: 3px;
+    margin-right: 16px;
+    margin-top: 3px;
+}
+
+.logo-styling {
+    margin: 6px 200px 0 0;
+}
+
+.navbar-properties {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+.navbar .navbar-fixed-top {
+    height: 5em;
+}
+
+.status-ok {
+    color: green;
+}
+
+.status-fail {
+    color: red;
+}
+
+.status-unknown {
+    color: gray;
+}
+
+.status-warning {
+    color: orange;
+}
+
+.status-blue {
+    color: #0099FF;
+}
+
+.stb-entry {
+    /*border*/
+    border-style: solid;
+    border-width: 0;
+    border-color: #aaa;
+    /*background*/
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+.stb-entry-hide {
+    /*border*/
+    border-style: solid;
+    border-width: 0;
+    /*background*/
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+.stb-health-check-box {
+    margin: 3px 0 4px 0;
+    border-style: dotted;
+    border-width: 1px 0px 1px 0px;
+    border-color: #aaa;
+    background-color: #f5f5f5;
+    padding: 5px 5px 5px 0px;
+    width: 100%;
+}
+
+.stb-health-check-box-hide {
+    margin: 3px 0 4px 0;
+    border-style: dotted;
+    border-width: 1px 0px 1px 0px;
+    border-color: #aaa;
+    padding: 5px 5px 5px 0px;
+    width: 100%;
+}
+
+.stb-health-check-box-inner {
+    /*border*/
+    border-style: dotted;
+    border-width: 1px 0px 1px 0px;
+    border-color: #aaa;
+    /*background*/
+    background-color: #eee;
+    padding: 5px 5px 5px 0px;
+    width: 100%;
+    height: 5.2em;
+}
+
+.tag-list-indent {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.vertical-center {
+    margin-top: 5px;
+}
+
+.vertical-center-admin {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+
+/*Collapse menu overrides */
+
+.navbar-override {
+    margin-right: 0px;
+    /*height: 50px;*/
+}
+
+
+/*Header responsive design */
+
+@media screen and (min-width: 768px) {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+        height: 20px;
+    }
+}
+
+
+/*Footer responsive design */
+
+@media screen and (max-width: 1360px) {
+    .comcast-logo {
+        visibility: hidden;
+    }
+    .brand-text {
+        font-size: 60px;
+        color: #ccc;
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .footer {
+        height: 120px;
+    }
+    .brand-text {
+        font-size: 40px;
+        color: #ccc;
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        padding-top: 0px;
+    }
+    .responsive-hide {
+        visibility: hidden;
+    }
+}
+
+.current {
+    padding-right: 15px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10px 10px;
+}
+
+.passed {
+    color: green;
+}

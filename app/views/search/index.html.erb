@@ -1,0 +1,29 @@
+<%= paginate @courses %>
+<table class="table table-striped table-bordered table-hover table-condensed" id="request_table">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>College</th>
+      <th>Subject</th>
+      <th><%= sort_link @search, :course_number, "Course Number" %></th>
+      <th><%= sort_link @search, :name, "Course Name" %></th>
+      <th><%= sort_link @search, :day, "Day" %></th>
+      <th><%= sort_link @search, :time, "Time" %></th>
+      <th><%= sort_link @search, :instructor, "Instructor" %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @courses.all.each do |course| %>
+      <tr>
+        <td><%= course.term.name %></td>
+        <td><%= course.subject.college.name %></td>
+        <td><%= course.subject.name %></td>
+        <td><%= course.course_number %></td>
+        <td><%= course.name %></td>
+        <td><%= course.day %></td>
+        <td><%= course.time %></td>
+        <td><%= course.instructor %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
